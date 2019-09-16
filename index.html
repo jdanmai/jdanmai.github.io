@@ -135,16 +135,76 @@
                             a subset of its issues (eight quality issues and two tidiness issues at minimum) needed to be
                             assessed and cleaned.<BR>
                             The tasks for this project were:<BR>
-                                - Data wrangling, which consisted of:
-                                    - Gathering data
-                                    - Assessing data
-                                    - Cleaning data
-                                - Storing, analyzing, and visualizing the wrangled data
-                                - Reporting on my data analyses and visualizations (act_report.pdf)
+                                - Data wrangling, which consisted of:<BR>
+                                    - Gathering data<BR>
+                                    - Assessing data<BR>
+                                    - Cleaning data<BR>
+                                - Storing, analyzing, and visualizing the wrangled data<BR>
+                                - Reporting on my data analyses and visualizations (act_report.pdf)<BR>
                         </p>
                     </div>
                 </section>
 
+                            
+                            
+               <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="FordGoBikes"class="post-avatar" src="/img/bike.jpg">
+
+                         <h2><a href="/bikeproject">FordGo Bikes Data Analsis</a></h2>
+                        
+                        <p class="post-meta">
+                         <a class="post-category post-category-design" href="#">python</a> 
+                            <a class="post-category post-category-pure" href="#">jupyter notebooks</a>
+                            <a class="post-category post-category-pure" href="#">natural language processing</a>
+                            <a class="post-category post-category-pure" href="#">seaborn</a>
+                            <a class="post-category post-category-pure" href="#">matplotlib</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            <B>Dataset:</b> <BR>
+                            Ford GoBike Data from 2018/01 through 2019/07. 
+                            Dataset was downloaded from: https://www.fordgobike.com/system-data. 
+                            This data encompasses bike ride start and end date, station information and location,
+                            member type of riders, gender, and age.<BR><BR><Br>
+                            
+                            <b>Focus of Analysis: </b><br>
+                            - Time of ride duration (duration_min)<BR>
+                            - Type (user_type)<BR>
+                            - Gender (member_gender)<BR>
+                            - Age (member_age) <BR><BT><BR>
+                            
+                            <b>Process:</b><BR>
+                            1. Univariate Exploration <BR>
+                            We will look at the bike ride trends in terms of<BR>
+                            age groups (member_age_bins)<BR>
+                            genders (member_gender)<BR>
+                            weekday (st_weekday, et_weekday)<BR>
+                            and hours of the day (st_hour, et_hour)<BR><BR>
+                            
+                            2. Bivariate Exploration <BR>
+                            We will look at the bike ride trends in terms of<BR>
+                            user_type and member_age_bins<BR>
+                            user_type and duration_min<BR><Br>
+                            
+                            3. Multivariate Exploration <BR>
+                          a. We need to make new DFs for - <BR>
+                            different age groups of subscribers<BR>
+                          b. create 2 new columns <BR>
+                             percentage column <BR>
+                              rank column <BR>
+                          c. create pivot for our visual which will display- <BR>
+                            st_hour<BR>
+                            weekday<BR>
+                            rank<BR>
+                          d. create our visuals: 4 heatmaps, each for the age groups we have (created in step a.)
+                        </p>
+                    </div>
+                </section>
+
+                            
   
             </div>
 
